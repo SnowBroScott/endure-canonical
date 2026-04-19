@@ -1,8 +1,136 @@
+
+All projects
+Endure Design
+Endure is a fitness fantasy application that bridges the gap between a standard fitness app and an immersive fantasy game. Real workouts drive progression in a living fantasy world built around atmosphere, identity, and shared memory — not optimization or competition. Design work spans world systems (holds, construction, events), identity and class mechanics, helper/social presence, and the anti-FOMO philosophy that underpins all of it. This project space holds all locked design decisions, open design layers, and system specs. The goal is continuity — every session should build forward without re-litigating settled ground.
+Show more
+
+
+
+How can I help you today?
+
+AI agents for workforce structure
+Last message 5 minutes ago
+AI-driven product development with minimal input
+Last message 4 hours ago
+Protecting BetterSelf IP before forming LLC
+Last message 5 hours ago
+Endure design documentation review
+Last message 17 hours ago
+Memory
+Only you
+Project memory will show here after a few chats.
+
+Instructions
+Add instructions to tailor Claude’s responses
+
+Files
+
+Endure___Resources__Currency_System__Locked_.docx
+89 lines
+
+docx
+
+
+
+Endure_Design_Conversation_Full_Transcript.docx
+163 lines
+
+docx
+
+
+
+Champion Trials & World Events (Draft).docx
+95 lines
+
+docx
+
+
+
+Endure – Survival, Holds, and Champion Role (Draft).docx
+151 lines
+
+docx
+
+
+
+Endure - XP Conceptual Model (Locked).docx
+43 lines
+
+docx
+
+
+
+Endure – Survival & Construction (Draft).docx
+1,283 lines
+
+docx
+
+
+
+Endure – Magic, Hybrids, and Aspect Direction (Notes).docx
+139 lines
+
+docx
+
+
+
+Endure – Loot Systems (Draft).docx
+431 lines
+
+docx
+
+
+
+Endure – Hybrids (Drafts – Progression Layer).docx
+237 lines
+
+docx
+
+
+
+Endure – Core Gameplay Loop (Locked).docx
+225 lines
+
+docx
+
+
+
+Endure – Classes & Identity (v2) (Locked).docx
+219 lines
+
+docx
+
+
+
+Endure – Classes & Identity (Old).docx
+233 lines
+
+docx
+
+
+
+Endure — Canonical Design Notebook.docx
+259 lines
+
+docx
+
+
+
+Endure – Classes & Identity (v2) (Locked).docx
+4.92 KB •219 lines
+•
+Formatting may be inconsistent from source
+
 Notebook: Endure
+
 Reference Title: Endure – Classes & Identity (v2)
+
 Status: ✅ LOCK READY
+
 Placement: Reference Group 2 – Core Systems
+
 Note: This replaces Classes & Identity v1
+
 # Endure – Classes & Identity (v2)
 
 ## Design Intent
@@ -10,12 +138,17 @@ Note: This replaces Classes & Identity v1
 Classes in Endure are **paths of embodiment** — ways that real effort shapes the body, identity, and power of the player over time.
 
 Endure fully embraces fantasy, but all magic is **internal and player‑centric**:
+
 - Power is not cast on the world
+
 - Power is channeled through the body
+
 - Effort is the ritual
+
 - The body is the artifact
 
 Progress does not ask “what level are you?”
+
 It asks:
 
 **What have you become?**
@@ -25,15 +158,19 @@ It asks:
 ## Core Principles (Non‑Negotiable)
 
 1. **Effort comes first** 
+
    All power, magic, and visual escalation exists to validate effort — never to replace it.
 
 2. **Classes are equal paths** 
+
    No class is secondary, supportive, or lesser. Each represents a complete way of enduring.
 
 3. **Identity emerges through action** 
+
    Sustained behavior matters more than initial selection.
 
 4. **Fantasy must feel earned** 
+
    Visual and thematic progression reflects consistency, intensity, and mastery.
 
 ---
@@ -47,20 +184,27 @@ Each class channels a distinct internal source of power. These sources express t
 ### **Strider — Path of the Wild**
 
 **Core Expression:** Endurance, movement, distance 
+
 **Source of Power:** Breath, rhythm, terrain, nature 
 
 The Strider does not outrun the world — 
+
 they move *with* it.
 
 Distance becomes communion. Breath syncs with terrain. Over time, movement itself feels supported by the land.
 
 **Training Alignment**
+
 - Running, distance work, pacing, sustained movement
+
 - Efficiency and consistency over spectacle
 
 **Magic Expression**
+
 - Subtle nature‑inflected visuals
+
 - Trail effects, wind currents, earth tones
+
 - Flow and momentum rather than force
 
 Strider magic feels like **freedom through persistence**.
@@ -70,6 +214,7 @@ Strider magic feels like **freedom through persistence**.
 ### **Forgeborn — Path of the Forge**
 
 **Core Expression:** Strength, resistance, pressure 
+
 **Source of Power:** Load, density, physical resolve 
 
 The Forgeborn is shaped by resistance.
@@ -77,12 +222,17 @@ The Forgeborn is shaped by resistance.
 Strength is not anger — it is **compression, repetition, and resolve**. Load becomes identity. Power becomes presence.
 
 **Training Alignment**
+
 - Lifting, resistance training, controlled force
+
 - Progressive load and deliberate exertion
 
 **Magic Expression**
+
 - Heat, embers, and density‑based effects
+
 - Visual weight and impact
+
 - The sense that space yields under presence
 
 Forgeborn magic feels like **power that has been tempered**, not unleashed.
@@ -92,20 +242,27 @@ Forgeborn magic feels like **power that has been tempered**, not unleashed.
 ### **Unbroken — Path of the Storm**
 
 **Core Expression:** Intensity, attrition, refusal to stop 
+
 **Source of Power:** Will, pain tolerance, sustained chaos 
 
 Unbroken does not overcome adversity — 
+
 they endure it until it breaks.
 
 This path represents relentless effort under fatigue, repetition without relief, and motion despite resistance.
 
 **Training Alignment**
+
 - Plyometrics, explosive intervals, high‑intensity conditioning
+
 - Repeated effort under exhaustion
 
 **Magic Expression**
+
 - Violent surges, lightning‑like bursts
+
 - Visual instability at peak effort
+
 - Effects that feel dangerous, loud, and barely contained
 
 Unbroken represents **defiance made visible** and is intentionally the most visceral path.
@@ -115,6 +272,7 @@ Unbroken represents **defiance made visible** and is intentionally the most visc
 ### **Mystic — Path of the Self**
 
 **Core Expression:** Control, precision, mastery 
+
 **Source of Power:** Breath, focus, discipline 
 
 The Mystic channels power inward.
@@ -122,12 +280,17 @@ The Mystic channels power inward.
 Every movement is intentional. Breath becomes engine. Stillness becomes strength.
 
 **Training Alignment**
+
 - Mobility, flexibility, balance, tempo, and body control
+
 - Precision under tension
 
 **Magic Expression**
+
 - Rune‑like markings, symbols, or tattoos
+
 - Subtle pulses aligned with breath cadence
+
 - The world quiets rather than escalates
 
 Mystic magic feels like **discipline given form**.
@@ -139,8 +302,11 @@ Mystic magic feels like **discipline given form**.
 Endure supports the concept of **hybrids** as a result of sustained, meaningful engagement across multiple class paths.
 
 Hybrids are:
+
 - **Earned**, not chosen
+
 - The result of long‑term behavioral overlap
+
 - A meaningful evolution, not a stat blend
 
 Hybrids and their associated transformations, aspects, or visual expressions are defined separately and intentionally outside this document.
@@ -152,9 +318,13 @@ This separation keeps core class identity clean while allowing future expansion.
 ## What Classes Are Not
 
 Classes in Endure are not:
+
 - RPG jobs
+
 - Difficulty settings
+
 - Recovery modes
+
 - Temporary roles
 
 They are enduring paths — complete, equal, and valid expressions of effort.
@@ -168,5 +338,5 @@ Endure is not a fitness app with fantasy flavor.
 Endure is a fantasy experience where sustained real‑world effort causes **mythic identity to emerge through the player**.
 
 Classes define **how you endure**. 
-What emerges from that endurance defines **what you become**.
 
+What emerges from that endurance defines **what you become**.
