@@ -11,5 +11,15 @@ WHY: Class selection as a starting mechanic forces identity declaration before i
 REPLACES: Nothing — new decision
 STATUS: DRAFT
 
+DECISION: Loot drops occur at two points: milestones during activity and completion at the end. Milestone drops are commons-weighted, with uncommons possible and rares at very low probability — nothing above rare at milestones. Completion drops have an uncommon floor with no commons; rares are weighted, epics and mythics are possible. Completing an activity always moves the player up the quality curve. Four loot categories exist across both drop points: Blueprints (Hold construction), Aesthetics (character expression), Environment (free expressive layer — weather, terrain, animals, scenes), and Junk (resource fuel), all following the rarity distribution above. The Environment layer is pure expression — freely changeable, consequence-free, no mechanical weight, and does not feed the weighted identity scale.
+DATE: April 20, 2026
+WHY: Milestone drops reward sustained engagement during activity without front-loading quality; completion drops create a meaningful distinction between stopping early and finishing — the player is always better off completing. The four-category structure ensures loot serves distinct design purposes without overlap. The Environment layer is kept mechanically inert to preserve the integrity of the behavioral identity scale — aesthetic choices in that layer should carry no emergent consequence.
+REPLACES: Nothing — new decision
+STATUS: DRAFT
 
-
+DECISION LOG ENTRY
+DECISION: The Hold is the player's personal sanctuary — a home and refuge that begins empty and comes alive through construction funded by resources. Blueprints unlock structures; structures populate the Hold with a clan of NPCs who animate the space and reflect construction choices. The clan is living texture, not gameplay — they respond to what's been built (workers during construction, a blacksmith at the forge, worshippers at a ritual site) but have no needs, give no quests, and require no maintenance. The Hold is top-down on mobile — readable, touch-navigable, and performant. Significant structures can be entered for closer, atmospheric interior visits; these are moments of presence, not gameplay layers. Mobile is the primary platform — the Hold is designed to feel complete on mobile, not a reduced version of something else. Desktop expansion is a post-launch ambition; design and systems should be perspective-agnostic where possible to keep that path open without requiring a rebuild. Mobile = complete. Desktop = deeper.
+DATE: April 20, 2026
+WHY: The Hold needs to feel earned and alive without becoming a second game. NPC presence as responsive texture — rather than quest-givers or maintenance systems — gives the space soul without adding obligation. Top-down mobile-first ensures the primary platform gets a complete, purpose-built experience rather than a port. Keeping systems perspective-agnostic protects the desktop path without letting future ambition compromise present design integrity.
+REPLACES: Nothing — new decision
+STATUS: DRAFT
