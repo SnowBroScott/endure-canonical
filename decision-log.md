@@ -23,3 +23,10 @@ DATE: April 20, 2026
 WHY: The Hold needs to feel earned and alive without becoming a second game. NPC presence as responsive texture — rather than quest-givers or maintenance systems — gives the space soul without adding obligation. Top-down mobile-first ensures the primary platform gets a complete, purpose-built experience rather than a port. Keeping systems perspective-agnostic protects the desktop path without letting future ambition compromise present design integrity.
 REPLACES: Nothing — new decision
 STATUS: DRAFT
+
+DECISION LOG ENTRY
+DECISION: Consumables are additive loot drops — they appear alongside normal loot drops, not as part of the main loot pool. Each consumable is a nudge toward one of the other three paths; the player knows which path it points toward but chooses when and whether to act on it. Acting on the nudge creates potential for hybrid-aligned or Blueprint drops from that activity. Players hold three consumable slots — one per non-primary path — with a maximum of one consumable per path at any time. The slot system stays fixed regardless of hybrid status. Consumables have a lifecycle with three resolution outcomes: use it (follow the nudge), destroy it (immediate resource conversion), or do nothing (automatic resource conversion at end of lifecycle). All three outcomes have value. No outcome is punishing. Consumables are the only loot type with a built-in time dimension.
+DATE: April 20, 2026
+WHY: Keeping consumables additive prevents them from competing with or diluting the main loot pool. Framing them as invitations rather than assignments preserves player agency — the nudge is an option, not an obligation. The three-slot cap prevents accumulation from becoming a management burden. Giving all three resolution outcomes genuine value removes punishment from inaction, which keeps the time dimension from feeling like a trap. The lifecycle mechanic distinguishes consumables from every other loot type without requiring a separate system.
+REPLACES: Nothing — new decision
+STATUS: DRAFT
