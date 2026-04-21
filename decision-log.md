@@ -1,15 +1,8 @@
 DECISION LOG ENTRY
-DECISION: The Design Collaborator agent is named Forge.
-DATE: April 19, 2026
-WHY: The name fits the tone of Endure without over-explaining itself.
-REPLACES: The unnamed Design Collaborator placeholder.
-STATUS: LOCKED
-
-DECISION: Players enter Endure as a Traveler — a liminal narrative starting state, not an empty one. Class assignment is replaced by behavioral emergence: a weighted scale tracks activity choices across all four paths, tipping toward a path through consistent behavior or identifying a hybrid through sustained split behavior. Neither outcome is player-declared; both are game-recognized. Visual identity escalates in real time as a reflection of accumulated choices. The progression curve is universal, but the texture of advancement is path-specific. Power in Endure is internal — the body is the artifact. Aesthetic motivation toward a path is accepted as a feature; if a player chases an aesthetic and does the work, the system has functioned correctly.
-DATE: April 20, 2026
-WHY: Class selection as a starting mechanic forces identity declaration before identity has been earned. Behavioral emergence allows the game to recognize who a player is becoming rather than who they claim to be. Visual escalation tied to accumulated choices reinforces that power in Endure is a product of real effort, not cosmetic acquisition. Accepting aesthetic pull as valid motivation removes a false distinction between "pure" and "impure" engagement — outcome integrity is preserved by the work itself.
+DECISION: The Endure AI agent workforce is fully established and operational. The workforce consists of twelve agents across three tiers: Design Collaborator (Forge), four cross-cutting agents (Canon Guard, Decision Logger, Design Expander, Cross-System Auditor), six domain agents (Survival & Build, Character & XP, Loot Engine, Resources, Events & Trials, Identity & Magic), and the Lovable Bridge. All agents are grounded in the Endure canonical notebook hosted on GitHub at github.com/SnowBroScott/endure-canonical.
+DATE: April 21, 2026
+WHY: The workforce replaces ad-hoc design conversation with a structured pipeline from idea exploration through to Lovable build output. Establishing a formal workforce ensures consistency, traceability, and clear role separation across all stages of design.
 REPLACES: Nothing — new decision
-STATUS: DRAFT
 
 DECISION: Loot drops occur at two points: milestones during activity and completion at the end. Milestone drops are commons-weighted, with uncommons possible and rares at very low probability — nothing above rare at milestones. Completion drops have an uncommon floor with no commons; rares are weighted, epics and mythics are possible. Completing an activity always moves the player up the quality curve. Four loot categories exist across both drop points: Blueprints (Hold construction), Aesthetics (character expression), Environment (free expressive layer — weather, terrain, animals, scenes), and Junk (resource fuel), all following the rarity distribution above. The Environment layer is pure expression — freely changeable, consequence-free, no mechanical weight, and does not feed the weighted identity scale.
 DATE: April 20, 2026
@@ -30,3 +23,23 @@ DATE: April 20, 2026
 WHY: Keeping consumables additive prevents them from competing with or diluting the main loot pool. Framing them as invitations rather than assignments preserves player agency — the nudge is an option, not an obligation. The three-slot cap prevents accumulation from becoming a management burden. Giving all three resolution outcomes genuine value removes punishment from inaction, which keeps the time dimension from feeling like a trap. The lifecycle mechanic distinguishes consumables from every other loot type without requiring a separate system.
 REPLACES: Nothing — new decision
 STATUS: DRAFT
+
+DECISION: Players enter Endure as a Traveler — a liminal narrative starting state, not an empty one. Class assignment is replaced by behavioral emergence: a weighted scale tracks activity choices across all four paths, tipping toward a path through consistent behavior or identifying a hybrid through sustained split behavior. Neither outcome is player-declared; both are game-recognized. Visual identity escalates in real time as a reflection of accumulated choices. The progression curve is universal, but the texture of advancement is path-specific. Power in Endure is internal — the body is the artifact. Aesthetic motivation toward a path is accepted as a feature; if a player chases an aesthetic and does the work, the system has functioned correctly.
+DATE: April 20, 2026
+WHY: Class selection as a starting mechanic forces identity declaration before identity has been earned. Behavioral emergence allows the game to recognize who a player is becoming rather than who they claim to be. Visual escalation tied to accumulated choices reinforces that power in Endure is a product of real effort, not cosmetic acquisition. Accepting aesthetic pull as valid motivation removes a false distinction between "pure" and "impure" engagement — outcome integrity is preserved by the work itself.
+REPLACES: Nothing — new decision
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+DECISION: The Design Collaborator agent is named Forge.
+DATE: April 19, 2026
+WHY: The name fits the tone of Endure without over-explaining itself.
+REPLACES: The unnamed Design Collaborator placeholder.
+STATUS: LOCKED
+
+
+
+
+
+
+
