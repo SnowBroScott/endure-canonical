@@ -1,5 +1,41 @@
 DECISION LOG ENTRY
 
+DECISION: Core Gameplay Loop v1 is formally unlocked and its status changed to SUPERSEDED. It is no longer a canonical reference document. It is retained as historical reference for the V2 rewrite only. The V2 brief may now proceed; Canon Guard review applies to V2 output, not the V2 brief.
+
+DATE: April 23, 2026
+
+WHY: The Core Progression Philosophy decision (Session 2) rendered large portions of Core Gameplay Loop v1 mechanically inaccurate. Gear, affixes, stat changes, mechanical modifiers, power-gated content escalation, gear repair as a resource sink, cosmetics as a resource expenditure domain, and hybrid options as a content gate are all retired by that decision. Core Gameplay Loop v1 also conflicts with the Resources / Currency System (LOCKED) on gear repair and cosmetics — pre-existing inter-document tensions the V2 rewrite will resolve; the Resources document holds authority on both points. Canon Guard correctly flagged that a brief cannot self-authorize supersession of a locked document. This entry formally executes that supersession under designer authority.
+
+REPLACES: Core Gameplay Loop v1 — previously LOCKED. That document is now SUPERSEDED and exits the canonical reference set.
+
+STATUS: LOCKED
+
+DECISION LOG ENTRY
+
+DECISION: Blueprint drops reflect current path identity across all ten identities — four base classes and six hybrids — with access to any blueprint pool requiring behavioral alignment with that path. The mechanism is identical across all paths; this is not a hierarchy, it is a reflection. The Hold does not update retroactively: structures carry the visual and thematic identity of the path phase during which they were built, making the Hold a physical historical record of the player's journey rather than a snapshot of current identity.
+
+DATE: April 23, 2026
+
+WHY: Hybrid blueprint drops during hybrid status are consistent with the equality principle, not in conflict with it — every identity receives blueprints the same way. Framing blueprint drops as identity reflection rather than tier reward preserves the integrity of the design. The Hold as historical record is consistent with the locked principle that the scale never resets and nothing is taken; structures built during a specific phase should look like it. This also naturally resists min-max play without requiring enforcement — collecting all blueprints requires genuinely living all paths.
+
+REPLACES: Nothing — new decision. Clarifies the Hybridization Framework with respect to loot and Hold implications.
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
+DECISION: Hybrid status does not gate access to harder content. Harder content unlocks because the player is doing harder things in the real world. Hybrid status is an identity reflection — a recognition of sustained behavioral reality across two paths — not a capability threshold. A hybrid and a single-path player doing equivalent real-world effort have equal access to what that effort unlocks. Hybrid status confers no progression advantage and creates no progression requirement. The Core Gameplay Loop v2 must remove hybrid options from the conditions governing content escalation.
+
+DATE: April 23, 2025
+
+WHY: The Core Gameplay Loop (LOCKED) previously listed hybrid options as one of three conditions under which harder activity tiers unlock. This framing predates the Core Progression Philosophy decision, which established that progression in Endure is driven entirely by real-world effort — not mechanical power thresholds or identity status. Harder content is harder real-world activity; the game cannot gate that access behind an identity state the player does not control directly. Hybrid status is earned through sustained behavioral overlap and cannot be a content requirement without becoming a soft optimization path, directly contradicting the equality principle.
+
+REPLACES: Core Gameplay Loop language listing hybrid options as a condition for content escalation
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: Consumable slots do not exist during the Traveler phase. The slot system is defined relative to a confirmed primary path — one slot per non-primary path. Because no primary path exists during the Traveler state, the slot architecture has no valid starting configuration. The slot system unlocks fully and immediately when a primary path is confirmed. It is not withheld — it genuinely does not exist until the condition that defines it exists.
 
 DATE: April 22, 2026
