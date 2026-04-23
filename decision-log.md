@@ -1,4 +1,37 @@
 DECISION LOG ENTRY
+
+DECISION: Consumable slots do not exist during the Traveler phase. The slot system is defined relative to a confirmed primary path — one slot per non-primary path. Because no primary path exists during the Traveler state, the slot architecture has no valid starting configuration. The slot system unlocks fully and immediately when a primary path is confirmed. It is not withheld — it genuinely does not exist until the condition that defines it exists.
+
+DATE: April 22, 2026
+
+WHY: The consumable slot starting configuration was undefined for the Traveler state (Cross-System Auditor Item 5). Resolving the Traveler state mechanically made the answer self-evident: the slot system is path-relative, so it cannot exist before a path exists.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
+DECISION: Early path behavior carries less cumulative weight than sustained long-term patterns. The weighted scale is skeptical early — it trusts long-term behavioral truth over early signal. Early activity counts and moves the scale but does not constitute a declaration. Players who explore a path and shift early are not tracked as drift cases. The scale never resets and inactivity does not move it. Nothing is taken. The world reflects reality, and reality takes time to reveal itself.
+
+DATE: April 22, 2026
+
+WHY: Resolving the trust-accumulation model was necessary to answer both how early-game activity affects the weighted scale and how the loot table behaves before a primary path is confirmed (Cross-System Auditor Item 3). The model is consistent with the locked principle that the scale never resets.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION: The Traveler phase spans approximately five activities and functions as the onboarding threshold before a primary path is confirmed. At session start, the player is dropped into a dark, gritty landscape with light character creation options. They are presented with four activity options — one per modality — as first steps, not class selection. The framing is orientation, not declaration. Visual identity during the Traveler phase is unmarked, untested, and un-weathered; as the player progresses, aspects of the emerging primary path begin to manifest visually. At the end of the first session, the player is introduced to resources and the Hold. At the close of the Traveler phase, the player is coached that they have started toward a path but the way is still undefined.
+
+DATE: April 22, 2026
+
+WHY: The Traveler state was defined narratively but not mechanically. This entry establishes the mechanical and experiential definition of the Traveler phase to resolve the ambiguity surfaced by Cross-System Auditor Item 5.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
 DECISION: Mechanical power progression through gear and stats does not exist in Endure. No stat items, no affixes, no power-gated content thresholds. All gear is aesthetic — it acknowledges and contextualizes endurance, it does not gate it. Progression is driven by real-world effort. Harder content is unlocked by doing harder things in the real world. The power lives in the player, not on a stat sheet.
 The Core Gameplay Loop document requires a meaningful rewrite to reflect this. The revised loop: real effort earns XP → XP reflects endurance → loot acknowledges the journey and shapes world and identity → resources fund the Hold → loop repeats, with harder real-world effort as the escalation mechanism.
 DATE: April 22, 2026
