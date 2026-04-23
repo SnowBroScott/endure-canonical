@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: Core Gameplay Loop v2 is formally locked as the canonical reference document for Reference Group 2 – Core Systems, superseding Core Gameplay Loop v1. The v1 document is retained in the repository under the filename core-gameplay-loop-v1-superseded.md as historical reference only, carrying no canonical authority.
+
+DATE: April 23, 2025
+
+WHY: Core Gameplay Loop v1 was formally superseded following the Core Progression Philosophy decision (Session 2), which retired the mechanical power framework the v1 was built around. The v2 was written ground-up from current understanding with v1 as reference only. The v2 incorporates all decisions logged through Session 3: Core Progression Philosophy, Traveler State, Weighted Scale Trust Accumulation Model, Consumable Slot Unlock, Hybrid Status as Identity Reflection, Hybrid Status Not a Content Gate, Blueprint Access Parity, and the Hold as Historical Record. Canon Guard review completed — PASS. No conflicts identified against remaining locked documents: XP Conceptual Model, Resources and Currency System, and Classes and Identity v2.
+
+REPLACES: Core Gameplay Loop v1. The following design directions are formally retired by this decision: gear, affixes, stat changes, and mechanical modifiers as loot outcomes; power-gated content escalation; gear repair and maintenance as resource sinks; cosmetics as a resource expenditure domain; direct resource drops at milestones; hybrid options as a condition for harder content unlocking.
+
+STATUS: LOCKED
+
+DECISION LOG ENTRY
+
 DECISION: Core Gameplay Loop v1 is formally unlocked and its status changed to SUPERSEDED. It is no longer a canonical reference document. It is retained as historical reference for the V2 rewrite only. The V2 brief may now proceed; Canon Guard review applies to V2 output, not the V2 brief.
 
 DATE: April 23, 2026
