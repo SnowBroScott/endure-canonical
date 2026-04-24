@@ -1,5 +1,29 @@
 DECISION LOG ENTRY
 
+DECISION: Expansion Pulse visuals are path-distinct expressions of the champion's confirmed path identity. Each of the ten path identities produces a completely different visual output from the same ritual mechanic — the darkness is pushed back by the champion specifically, in a form unique to their path. Pulse visuals escalate in drama and formidability across expansions: early pulses are raw and unsteady; late-game pulses are fully realized expressions of the champion's identity at its peak.
+
+DATE: April 24, 2026
+
+WHY: The creative constraint — make the pulse look like the champion's path identity — produces limitless visual variation without requiring separate systems. This approach uses restraint to earn spectacle: the game is quiet and internal across the player's journey, and the expansion moment reveals what they have become. Because it is earned, it lands. The escalating visual drama across expansions reflects and reinforces the player's actual progression arc.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
+DECISION: The Hold uses a plot-based construction system with an expansion mechanic that physically extends the Hold's boundaries outward into the world. Expansion is triggered by the player interacting with a reserved center circle — present from the first session, unmarked and unexplained. The circle evolves visually across expansions: dirt → carved stone → runes → glowing altar. The expansion ritual stays structurally identical each time; what changes is the visible weight and power behind it, earned through progression. The clan responds to the circle organically over time — gathering, marking, making it sacred — without cutscenes or quests directing them to do so.
+
+DATE: April 24, 2026
+
+WHY: The Hold is sanctuary — warmer, safer, alive — inside a dark and unforgiving world. Expansion is framed as an act of defiance: the player physically taking ground from the darkness, not completing a transaction. This framing gives mechanical progression emotional stakes. The center circle serves as a persistent record of every expansion — a monument the player makes through accumulated acts of will rather than scripted story. The ritual's consistency across all expansions allows drama to be earned rather than designed in; early expansions are raw, late expansions are enormous, and the difference is entirely legible because the ceremony never changes.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: The Hold Introduction Sequence and Construction Framework is established as follows:
 
 - First Session Flow: Activity → Blueprint drop → Traveler walks → camera shifts from third-person to top-down → open space presented raw → soft optional placement suggestion appears → player places first structure → Hold begins. The camera shift marks the threshold from traveling the world to owning a piece of it. The suggestion is available for players who need a foothold and absent for those who don't. First act of ownership remains the player's in either case.
