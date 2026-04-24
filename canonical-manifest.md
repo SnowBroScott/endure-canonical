@@ -43,6 +43,7 @@ Last Updated: Session 4
 |---|---|---|
 | Decision Log | decision-log.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/decision-log.md |
 | Canonical Manifest | canonical-manifest.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/canonical-manifest.md |
+| Workflow Handoff Guide | workflow-handoff-guide.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/reference/workflow-handoff-guide.md |
 
 ---
 
