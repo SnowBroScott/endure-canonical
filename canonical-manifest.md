@@ -6,7 +6,7 @@ When a document is needed, fetch it directly from GitHub using the raw URL provi
 Update this manifest when documents are added, moved, or change status.
 
 Repository: https://github.com/SnowBroScott/endure-canonical
-Base raw URL: https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/
+Base raw URL: https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/
 
 Last Updated: Session 4
 
@@ -17,10 +17,10 @@ Last Updated: Session 4
 
 | Document | Filename | Raw URL |
 |---|---|---|
-| XP Conceptual Model | xp-conceptual-model.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/locked/xp-conceptual-model.md |
-| Resources & Currency System | resources-currency-system.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/locked/resources-currency-system.md |
-| Core Gameplay Loop v2 | core-gameplay-loop-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/locked/core-gameplay-loop-v2.md |
-| Classes & Identity v2 | classes-identity-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/locked/classes-identity-v2.md |
+| XP Conceptual Model | xp-conceptual-model.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/xp-conceptual-model.md |
+| Resources & Currency System | resources-currency-system.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/resources-currency-system.md |
+| Core Gameplay Loop v2 | core-gameplay-loop-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/core-gameplay-loop-v2.md |
+| Classes & Identity v2 | classes-identity-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/classes-identity-v2.md |
 
 ---
 
@@ -29,10 +29,10 @@ Last Updated: Session 4
 
 | Document | Filename | Raw URL |
 |---|---|---|
-| Hybrids & Progression Layer | hybrids-progression-layer.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/draft/hybrids-progression-layer.md |
-| Loot Systems | loot-systems.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/draft/loot-systems.md |
-| Survival & Construction | survival-construction.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/draft/survival-construction.md |
-| Champion Trials & World Events | champion-trials-world-events.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/draft/champion-trials-world-events.md |
+| Hybrids & Progression Layer | hybrids-progression-layer.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/hybrids-progression-layer.md |
+| Loot Systems | loot-systems.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/loot-systems.md |
+| Survival & Construction | survival-construction.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/survival-construction.md |
+| Champion Trials & World Events | champion-trials-world-events.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/champion-trials-world-events.md |
 
 ---
 
@@ -41,7 +41,8 @@ Last Updated: Session 4
 
 | Document | Filename | Raw URL |
 |---|---|---|
-| Decision Log | decision-log.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/decision-log.md |
+| Decision Log | decision-log.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/decision-log.md |
+| Canonical Manifest | canonical-manifest.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/canonical-manifest.md |
 
 ---
 
@@ -50,8 +51,8 @@ Last Updated: Session 4
 
 | Document | Filename | Raw URL |
 |---|---|---|
-| Classes & Identity v1 | classes-identity-v1.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/deprecated/classes-identity-v1.md |
-| Core Gameplay Loop v1 (Superseded) | core-gameplay-loop-v1-superseded.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/main/deprecated/core-gameplay-loop-v1-superseded.md |
+| Classes & Identity v1 | classes-identity-v1.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/deprecated/classes-identity-v1.md |
+| Core Gameplay Loop v1 (Superseded) | core-gameplay-loop-v1-superseded.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/deprecated/core-gameplay-loop-v1-superseded.md |
 
 ---
 
