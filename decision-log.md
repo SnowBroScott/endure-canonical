@@ -1,5 +1,29 @@
 DECISION LOG ENTRY
 
+DECISION: The Hold Introduction Sequence and Construction Framework is established as follows:
+
+- First Session Flow: Activity → Blueprint drop → Traveler walks → camera shifts from third-person to top-down → open space presented raw → soft optional placement suggestion appears → player places first structure → Hold begins. The camera shift marks the threshold from traveling the world to owning a piece of it. The suggestion is available for players who need a foothold and absent for those who don't. First act of ownership remains the player's in either case.
+
+- First Structure: The first blueprint is a longhouse — humble but readable as a beginning. The first act in the Hold is making shelter, consistent with what the Traveler actually is. All subsequent construction builds outward from that.
+
+- Hold as Second Identity Surface: Path-neutral structures take on the visual character of the player's current path as they progress. Structures built during a specific path phase carry that phase's identity permanently and do not update retroactively. The Hold accumulates the full journey visually. XP now touches two identity surfaces simultaneously: the body (visual escalation) and the Hold (aesthetic progression on applicable structures).
+
+- Blueprint Rarity and Path Access: Common blueprints are path-neutral, available throughout the game, and the primary type during the Traveler phase. Players will build with them early and convert them to resources as path-specific blueprints become available. Commons retain meaning as the earliest layer of the Hold's historical record. Uncommon and above are path-specific, aligned to the player's current confirmed identity.
+
+- Ten Blueprint Pools — Identity Parity: One pool per identity, covering all four base classes and all six hybrids. Pool access is determined by current confirmed identity only. No blending across pools. No probability weighting across multiple identities. One identity, one pool. A player drifting toward a new identity retains their current pool until the scale confirms the new identity. This preserves equality across all ten identities — no hierarchy, only reflection.
+
+- Hold as Episodic Historical Record: Pool access switches cleanly at confirmed identity thresholds. The Hold accumulates the journey in distinct chapters — Traveler commons, followed by path-specific phases in sequence. Transitions are episodic, not gradual. The whole journey is readable in one space.
+
+DATE: April 24, 2026
+
+WHY: The Hold introduction sequence establishes ownership clearly and immediately without hand-holding players who don't need it. The longhouse grounds the player's first act in honesty about what the Traveler is. Tying Hold aesthetics to path identity extends identity expression beyond the body into the player's space, making the Hold a second reflection of the same progression inputs. Blueprint rarity mapping to the existing loot curve ensures no new emotional logic is required. Identity parity across all ten pools preserves the design equality principle. Episodic accumulation makes the Hold a legible historical record of the full journey — not a snapshot of the current state, but a layered archive.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: Core Gameplay Loop v2 is formally locked as the canonical reference document for Reference Group 2 – Core Systems, superseding Core Gameplay Loop v1. The v1 document is retained in the repository under the filename core-gameplay-loop-v1-superseded.md as historical reference only, carrying no canonical authority.
 
 DATE: April 23, 2025
