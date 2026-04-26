@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: XP is calculated exclusively from two inputs — duration above heart rate threshold and intensity above threshold — with no activity type multipliers, no path-specific bonuses, no difficulty weighting, and no session cap. Heart rate data is treated as a personal and relative measure of effort, meaning the same activity produces different XP for different players based on their individual physiological response. Mystic sessions substitute duration above minimum session threshold as the primary input, supplemented by HRV where available, maintaining the same honest-effort-in, XP-out architecture.
+
+DATE: April 26, 2026
+
+WHY: XP must be a direct and honest reflection of genuine physical effort without the model passing judgment on which activities or effort levels are more worthy. Heart rate is inherently self-scaling and personal — the bridge already calibrates effort honestly, so XP does not second-guess it. A session cap would contradict the core principle that Endure does not punish volume or low intensity. The gatekeeper threshold prevents passive accumulation without requiring additional filters at the XP layer. Activities are modality invitations, not difficulty designations, and the model is built to reflect that consistently.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: The Mystic path heart rate exception is resolved by the activity type taxonomy architecture. Endure reads Apple Health and Google Fit activity type labels rather than relying on heart rate to classify Mystic effort. Activity type label (yoga, mindfulness, flexibility, meditation) is the primary validation mechanism and gatekeeper for Mystic sessions. Duration replaces heart rate as the secondary validator, with a minimum session duration threshold preventing trivial logging from generating XP or path weight. HRV, where available, serves as optional tertiary enrichment for effort quality. The validation hierarchy for all four paths is formally established as follows:
 
 - Strider, Forgeborn, Unbroken: Primary — heart rate (gatekeeper); Secondary — activity type label (path assignment); Tertiary — duration, active calories (XP calculation inputs)
