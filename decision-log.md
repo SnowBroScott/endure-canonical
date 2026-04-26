@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: Heart rate is established as the base measurement and gatekeeper for effort validation in the fitness bridge, but Mystic path modalities — stillness, precision, breathwork, mobility, meditation — do not reliably produce elevated heart rate responses and may suppress it. Using heart rate as a universal gatekeeper risks systematically undervaluing Mystic effort. This thread is held open and must be resolved before the fitness bridge spec is finalized. Directions loosely held for resolution: HRV as a Mystic-specific measurement, duration plus intentionality with HRV or mindfulness minutes as a validation layer, or a lower heart rate threshold calibrated specifically for the Mystic path.
+
+DATE: April 26, 2026
+
+WHY: The equality principle — all ten identities are peers — prohibits any measurement framework that structurally disadvantages one path. Heart rate as a universal gatekeeper would do exactly that to the Mystic path, where peak effort may produce parasympathetic rather than sympathetic responses. The issue is noted now so it doesn't quietly undermine the bridge spec at finalization.
+
+REPLACES: Nothing — new decision
+
+STATUS: NOTED
+
+DECISION LOG ENTRY
+
 DECISION: Expansion Pulse visuals are path-distinct expressions of the champion's confirmed path identity. Each of the ten path identities produces a completely different visual output from the same ritual mechanic — the darkness is pushed back by the champion specifically, in a form unique to their path. Pulse visuals escalate in drama and formidability across expansions: early pulses are raw and unsteady; late-game pulses are fully realized expressions of the champion's identity at its peak.
 
 DATE: April 24, 2026
