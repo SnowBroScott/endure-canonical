@@ -1,5 +1,22 @@
 DECISION LOG ENTRY
 
+DECISION: The Mystic path heart rate exception is resolved by the activity type taxonomy architecture. Endure reads Apple Health and Google Fit activity type labels rather than relying on heart rate to classify Mystic effort. Activity type label (yoga, mindfulness, flexibility, meditation) is the primary validation mechanism and gatekeeper for Mystic sessions. Duration replaces heart rate as the secondary validator, with a minimum session duration threshold preventing trivial logging from generating XP or path weight. HRV, where available, serves as optional tertiary enrichment for effort quality. The validation hierarchy for all four paths is formally established as follows:
+
+- Strider, Forgeborn, Unbroken: Primary — heart rate (gatekeeper); Secondary — activity type label (path assignment); Tertiary — duration, active calories (XP calculation inputs)
+- Mystic: Primary — activity type label (gatekeeper and path assignment); Secondary — duration (minimum threshold validation); Tertiary — HRV where available (optional effort quality signal)
+
+The equality principle is preserved: all four paths have a valid and appropriate effort validation model at the bridge level.
+
+DATE: April 26, 2026
+
+WHY: Heart rate as the universal gatekeeper is inappropriate for Mystic-category activities, which by nature do not produce elevated heart rate as their effort signal. The platform already identifies these activities by label through Apple Health and Google Fit integration — Endure trusts that label rather than requiring an inapplicable physiological signal. Duration as secondary validator maintains a meaningful effort threshold without misrepresenting the nature of Mystic effort. This preserves the equality principle across all four paths while accurately modelling each path's distinct effort type.
+
+REPLACES: Open Thread — Mystic Path Heart Rate Exception (now resolved and closed)
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: Fitness Bridge Spec — Foundation established as a DRAFT directional commitment covering five structural areas: (1) Apple Health and Google Fit designated as the two exclusive data pipes for Endure, with no direct device integration required beyond these endpoints; (2) Heart rate designated as the foundational measurement and gatekeeper for effort validation, with all other measurements (duration, distance, active calories, activity type) layering on top — with an open thread flagged for Mystic path resolution; (3) Activity type taxonomy deferred to platform-native labels (Apple Health / Google Fit workout types), mapped to Endure paths, with a full mapping document identified as a required gap; (4) Bidirectional bridge architecture established — Endure-initiated sessions push a labeled workout to the platform at commit, session readback pulls completed data at close, and passive import captures workouts logged outside Endure; (5) Platform symmetry confirmed — both platforms support the same core capabilities; architecture is designed once and implemented twice.
 
 DATE: April 26, 2026
