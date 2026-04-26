@@ -1,5 +1,26 @@
 DECISION LOG ENTRY
 
+DECISION: Fitness Bridge Spec — Foundation established as a DRAFT directional commitment covering five structural areas: (1) Apple Health and Google Fit designated as the two exclusive data pipes for Endure, with no direct device integration required beyond these endpoints; (2) Heart rate designated as the foundational measurement and gatekeeper for effort validation, with all other measurements (duration, distance, active calories, activity type) layering on top — with an open thread flagged for Mystic path resolution; (3) Activity type taxonomy deferred to platform-native labels (Apple Health / Google Fit workout types), mapped to Endure paths, with a full mapping document identified as a required gap; (4) Bidirectional bridge architecture established — Endure-initiated sessions push a labeled workout to the platform at commit, session readback pulls completed data at close, and passive import captures workouts logged outside Endure; (5) Platform symmetry confirmed — both platforms support the same core capabilities; architecture is designed once and implemented twice.
+
+DATE: April 26, 2026
+
+WHY: Integrating via Apple Health and Google Fit covers effectively the entire device market through two endpoints, as most third-party trackers feed into one natively. Heart rate is chosen as the base validator because it is the hardest fitness signal to game — sustained elevated heart rate is direct evidence the body is working, which is consistent with Endure's core philosophy that power is internal and the body is the artifact. Duration and distance alone are gameable; heart rate is not. The bidirectional architecture makes the activity commit moment technically real — the player declares intent, the platform begins listening — and passive import ensures players receive credit for real effort regardless of whether they opened Endure first. Platform symmetry keeps the architecture clean: one design, two implementations.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+---
+
+Five gaps are formally flagged as requiring resolution before this spec is final:
+1. Mystic path heart rate exception (open thread — HRV, duration + intentionality, or lower threshold)
+2. Full activity type to path mapping document
+3. XP calculation model
+4. Path weighting inputs
+5. Loot drop triggers
+
+DECISION LOG ENTRY
+
 DECISION: Heart rate is established as the base measurement and gatekeeper for effort validation in the fitness bridge, but Mystic path modalities — stillness, precision, breathwork, mobility, meditation — do not reliably produce elevated heart rate responses and may suppress it. Using heart rate as a universal gatekeeper risks systematically undervaluing Mystic effort. This thread is held open and must be resolved before the fitness bridge spec is finalized. Directions loosely held for resolution: HRV as a Mystic-specific measurement, duration plus intentionality with HRV or mindfulness minutes as a validation layer, or a lower heart rate threshold calibrated specifically for the Mystic path.
 
 DATE: April 26, 2026
