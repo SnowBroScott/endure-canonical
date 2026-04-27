@@ -1,5 +1,28 @@
 DECISION LOG ENTRY
 
+DECISION: Four Path Modality Definitions — Plain Language are formally established as the governing authority for activity-to-path mapping in the fitness bridge and as the primary input for AI categorization of Apple Health and Google Fit activity types. The four paths are defined as follows:
+
+- Strider — Locomotion. Activities where the primary output is distance covered under the individual's own power (e.g., running, hiking, cycling, swimming, rowing, walking, kayaking, cross-country skiing).
+- Forgeborn — Load. Activities where the primary output is force applied against resistance or weight (e.g., strength training, weightlifting, powerlifting, functional fitness, resistance training; bodyweight movements performed within a strength or lifting context belong here).
+- Unbroken — Sustained intensity. Activities where the primary output is high effort maintained over time without yielding (e.g., HIIT, circuit training, combat sports, CrossFit, boxing, wrestling, competitive rowing, interval training).
+- Mystic — Mastery. Activities where the primary output is control, precision, or intentional alignment of the body (e.g., yoga, mobility work, meditation, flexibility training, mindfulness, breathwork, calisthenics, gymnastics, handstands, advanced bodyweight skill work).
+
+Context governs calisthenics placement: basic movements (pushups, pullups) performed within a strength or lifting context belong to Forgeborn; the same movements performed within a calisthenics flow or skill practice context belong to Mystic. The activity type label from Apple Health or Google Fit carries the context — the bridge does not parse individual movements within a session.
+
+Activities that do not fit any modality honestly are excluded from path assignment and generate no XP, scale points, or loot drops (e.g., golf, bowling, billiards). This is a mapping boundary, not a value judgment.
+
+When in doubt about where an activity belongs, these definitions are the authority.
+
+DATE: April 26, 2026
+
+WHY: Endure requires a clear, unambiguous mapping layer between real-world physical activities and its four paths. Plain-language definitions provide the canonical authority for that mapping, ensure consistent AI categorization of incoming activity data, and resolve edge cases (particularly the calisthenics split between Forgeborn and Mystic) without requiring downstream interpretation.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: Fitness Bridge loot drop triggers are defined as four distinct trigger types, all mapping directly onto the existing loot architecture with no new systems invented. The bridge passes three data points to the loot engine per session: qualification status, completion status, and session duration. The loot engine handles all resolution.
 
 The four triggers are:
