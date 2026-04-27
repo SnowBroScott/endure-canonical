@@ -33,6 +33,7 @@ Last Updated: Session 4
 | Loot Systems | loot-systems.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/loot-systems.md |
 | Survival & Construction | survival-construction.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/survival-construction.md |
 | Champion Trials & World Events | champion-trials-world-events.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/champion-trials-world-events.md |
+| Fitnes Bridge  | fitness-bridge-spec.md |
 
 ---
 
