@@ -1,5 +1,29 @@
 DECISION LOG ENTRY
 
+DECISION: Fitness Bridge loot drop triggers are defined as four distinct trigger types, all mapping directly onto the existing loot architecture with no new systems invented. The bridge passes three data points to the loot engine per session: qualification status, completion status, and session duration. The loot engine handles all resolution.
+
+The four triggers are:
+
+Trigger 1 — In-Session Resource Drops. Fires during every qualifying session. Rate: 2–4 resource drops per activity, distributed at randomized intervals across session duration. Drop quality: junk, fuel, common resource material. Trigger condition: heart rate threshold cleared and session actively in progress.
+
+Trigger 2 — Completion Drop. Fires once per session at the 100% completion point. Primary gamification hook. Follows the established completion drop loot table: uncommon floor, no commons, rares weighted, epics and mythics possible. Trigger condition: player closes the activity in Endure at or after the intended session completion point. Binary resolution — completed or not.
+
+Trigger 3 — Extended Effort Drops. Fires when a session continues beyond 100% completion. Additional resource drops accumulate at a reasonable randomized rate for the full duration of extended effort. These drops are additive — they do not replace or modify the completion drop. Trigger condition: session continues actively beyond the 100% completion point with heart rate threshold maintained.
+
+Trigger 4 — Streaks, Milestones, Thresholds. Additive recognition layer on top of the three core triggers. Never replaces standard drops. Always adds to them. Examples: seven-day streak produces a bonus drop alongside the standard completion drop; cumulative distance milestone produces a special recognition moment with associated loot. These recognize patterns and reward consistency without being mandatory for the core loop to feel rewarding. Specific definitions are flagged as an open thread for a dedicated session.
+
+Activity Mapping: Unmappable activities (golf, bowling, and similar) do not trigger any loot drops. The four modality definitions — Strider (movement through terrain), Forgeborn (resistance and load), Unbroken (sustained high output and intensity), Mystic (stillness and precision) — govern qualification. Activities that do not fit any modality honestly are excluded. Activity-to-path mapping document is flagged as a Claude Code first-draft task, using the four modality definitions plus full Apple Health and Google Fit activity type taxonomies as input.
+
+DATE: April 26, 2026
+
+WHY: The fitness bridge requires a clear, bounded trigger specification so the loot engine receives unambiguous inputs without requiring new system architecture. Mapping directly onto existing loot infrastructure keeps the bridge a data translation layer, not a parallel loot system. The four-trigger structure separates the types of effort being recognized — baseline effort, completion, overperformance, and consistency — giving each a distinct reward signal without conflating them. Excluding unmappable activities preserves modality integrity and avoids forced categorizations that would undermine the meaning of the four paths.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: The Weighted Scale and Path Weighting system is fully specified as follows: The scale tracks behavioral reality across all four paths simultaneously as a continuous percentage calculation — not a declaration system. It operates against a rolling 99-point ceiling; once accumulated points exceed 99, the oldest entries exit the active calculation window while remaining permanently in the database. Session contributions are two-tiered: Tier 1 (clears the heart rate threshold for minimum qualifying duration) contributes 1 point; Tier 2 (sustained elevated heart rate above threshold for significant duration) contributes 2 points. No additional tiers, multipliers, or activity-type bonuses exist. The hybrid emergence threshold is 11 points on a single path relative to total accumulated points. Pure path identity requires no threshold — it is the absence of a qualifying hybrid split. Identity expression is continuous, not state-based. The scale ceiling is deliberately set at 99 (odd) so a perfect 50/50 split within a whole-number system is mathematically impossible — there is always a dominant path.
 
 DATE: April 26, 2026
