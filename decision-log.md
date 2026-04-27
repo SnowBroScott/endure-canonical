@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: The Weighted Scale and Path Weighting system is fully specified as follows: The scale tracks behavioral reality across all four paths simultaneously as a continuous percentage calculation — not a declaration system. It operates against a rolling 99-point ceiling; once accumulated points exceed 99, the oldest entries exit the active calculation window while remaining permanently in the database. Session contributions are two-tiered: Tier 1 (clears the heart rate threshold for minimum qualifying duration) contributes 1 point; Tier 2 (sustained elevated heart rate above threshold for significant duration) contributes 2 points. No additional tiers, multipliers, or activity-type bonuses exist. The hybrid emergence threshold is 11 points on a single path relative to total accumulated points. Pure path identity requires no threshold — it is the absence of a qualifying hybrid split. Identity expression is continuous, not state-based. The scale ceiling is deliberately set at 99 (odd) so a perfect 50/50 split within a whole-number system is mathematically impossible — there is always a dominant path.
+
+DATE: April 26, 2026
+
+WHY: The rolling 99-point window creates natural recency bias that honestly reflects what identity means in Endure — recent effort should carry more weight than distant history as totals accumulate, consistent with the locked principle that the scale never resets and inactivity does not move it. Two tiers reflect the honest difference between showing up and genuinely pushing without imposing value judgments on activity types. The hybrid threshold scales relative to total accumulation so the scale remains appropriately skeptical early — players who explore and shift are still becoming. Pure path requires no threshold because the game has no declaration work to do; the player's effort produces the reality directly. The odd ceiling at 99 ensures the world always reflects a truth, never a tie.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: XP is calculated exclusively from two inputs — duration above heart rate threshold and intensity above threshold — with no activity type multipliers, no path-specific bonuses, no difficulty weighting, and no session cap. Heart rate data is treated as a personal and relative measure of effort, meaning the same activity produces different XP for different players based on their individual physiological response. Mystic sessions substitute duration above minimum session threshold as the primary input, supplemented by HRV where available, maintaining the same honest-effort-in, XP-out architecture.
 
 DATE: April 26, 2026
