@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: The Marks System is established with the following working definition: Marks are unannounced consequences of trials and events — players do not know a mark is possible before attempting. Failure yields Scars. Success yields Honorifics (tattoos, emblems, brands). All marks carry equal weight regardless of outcome (the equality principle). Marks are trial- and event-specific, not path-specific — path identity is expressed through loot and visual escalation separately. Marks are semi-permanent: removable at meaningful resource cost, intentionally weighted so removal is a real decision. Removed marks are not deleted — they transfer to a dedicated physical structure in the Hold (wall, cairn, or similar), where they remain as permanent historical record. The body and the Hold together constitute the champion's complete living history.
+
+DATE: April 27, 2026
+
+WHY: Consistent with core Endure values — the body is the artifact, the scale never resets, nothing is erased. The equality principle ensures success and failure marks carry the same gravity, preventing a hierarchy that would undermine the authenticity of lived history. Resource cost for removal functions as weight, not punishment. Hold placement of removed marks honors the investment while preserving the record. Marks record what you did, not who you are — path identity has its own channel.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: Four Path Modality Definitions — Plain Language are formally established as the governing authority for activity-to-path mapping in the fitness bridge and as the primary input for AI categorization of Apple Health and Google Fit activity types. The four paths are defined as follows:
 
 - Strider — Locomotion. Activities where the primary output is distance covered under the individual's own power (e.g., running, hiking, cycling, swimming, rowing, walking, kayaking, cross-country skiing).
