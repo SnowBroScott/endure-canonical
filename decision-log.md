@@ -1,5 +1,17 @@
 DECISION LOG ENTRY
 
+DECISION: Each of the ten player identities — four base classes and six hybrids — has its own distinct blueprint pool. Hybrid blueprint pools are not additive or inherited from their contributing base classes. Björn, for example, has its own Bear-specific pool of structures, visuals, and Hold character — not a merged or combined version of the Strider and Forgeborn pools. Access to any pool requires current behavioral alignment with that identity. The mechanism is identical across all ten identities. No hierarchy, no inheritance, no additive coverage advantage.
+
+DATE: May 1, 2026
+
+WHY: Distinct pools are the only architecture consistent with the Hold as a living historical record. A hybrid Hold should look like a hybrid lived there — not like two base class Holds stitched together. The peer equality principle requires equal breadth across all ten identities, not equal access to other identities' content. Additive hybrid pools would collapse hybrid history into base class history, which misrepresents what a hybrid identity is.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: The Hold Absence & Return System operates on the following principles: The Hold responds to return, not to absence. Nothing diminishes, decays, or is taken during absence — the forge fire goes low, not out. The world waits. Return is a deliberate act performed by the player, not a passive login; the Hold responds to that act.
 
 Two tiers of return ceremony, scaled to absence length:
