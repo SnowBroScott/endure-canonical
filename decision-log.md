@@ -1,5 +1,25 @@
 DECISION LOG ENTRY
 
+DECISION: The Hold Absence & Return System operates on the following principles: The Hold responds to return, not to absence. Nothing diminishes, decays, or is taken during absence — the forge fire goes low, not out. The world waits. Return is a deliberate act performed by the player, not a passive login; the Hold responds to that act.
+
+Two tiers of return ceremony, scaled to absence length:
+
+SHORT ABSENCE — The player relights the forge. The fire catches. Someone in the clan looks up. Quiet recognition. Life resumes.
+
+LONG ABSENCE — The player sounds the horn. The tribe emerges from buildings. Celebration. The Hold rekindles all at once. A ceremony of return equal in weight to the length of absence.
+
+The horn is a physical object present in the Hold world — Norse in character, placed deliberately in the space (likely near the center circle), walked to and sounded as an act in the world. Not a menu prompt. Absence length is measured in calendar time, not session gaps. The Hold knows about sessions, not training that occurred outside Endure.
+
+DATE: April 30, 2026
+
+WHY: Consistent with core Endure values — no punishment for absence, the scale never moves due to inactivity. Return should feel like an arrival, not a recovery. The horn makes return ceremonial without making absence costly.
+
+REPLACES: Entropy language in the Loot Systems document that could be read as identity softening during absence. Clarification: that language referred to undecided loot dissolving into resources over time — a separate, already-established mechanic. Identity expression does not soften during absence. This decision draws a clean line between loot entropy (existing mechanic, untouched) and identity/Hold state during absence (unaffected).
+
+STATUS: DRAFT
+
+DECISION LOG ENTRY
+
 DECISION: The Marks System is established with the following working definition: Marks are unannounced consequences of trials and events — players do not know a mark is possible before attempting. Failure yields Scars. Success yields Honorifics (tattoos, emblems, brands). All marks carry equal weight regardless of outcome (the equality principle). Marks are trial- and event-specific, not path-specific — path identity is expressed through loot and visual escalation separately. Marks are semi-permanent: removable at meaningful resource cost, intentionally weighted so removal is a real decision. Removed marks are not deleted — they transfer to a dedicated physical structure in the Hold (wall, cairn, or similar), where they remain as permanent historical record. The body and the Hold together constitute the champion's complete living history.
 
 DATE: April 27, 2026
