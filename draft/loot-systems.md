@@ -132,15 +132,11 @@ physical activity performance or identity velocity.
 
 **Ownership vs. access:**
 Blueprints already owned are permanent regardless of 
-identity drift. A player who drifts from hybrid status 
-retains all blueprints earned and all structures built 
-during that phase. Eligibility governs future drops only — 
-not existing ownership or construction rights.
-
-When a player confirms hybrid status, access to base class 
-blueprint pools ends. One identity, one pool — no exceptions 
-at the hybrid level. Access returns to a base class pool 
-only when behavioral reality shifts back to that identity.
+identity drift. A player who drifts from a hybrid or base 
+class identity retains all blueprints earned and all 
+structures built during that phase. Eligibility governs 
+future drops only — not existing ownership or 
+construction rights.
 
 ---
 
@@ -199,32 +195,31 @@ dissolution — converts into resources. Resources always
 have value.
 
 **Two resource sinks:**
-- Hold Construction (primary sink)
+- Hold Construction (primary sink — within the 
+  survival/build layer)
 - Earned Marks (only non-build sink)
 
-No other resource sinks exist. Resources do not feed 
-survival mechanics, recovery systems, or quality-of-life 
-systems. No survival mechanics exist in Endure.
+No other resource sinks exist. Resources do not affect 
+moment-to-moment activity difficulty. Resources do not 
+replace XP or loot. Resources do not affect transformation 
+speed or progression.
 
-Resources do not affect moment-to-moment activity difficulty. 
-Resources do not replace XP or loot. Resources do not affect 
-transformation speed or progression.
-
-Loot that dissolves passively converts to resources over time. 
-This is loot resolution, not identity change.
+Loot that dissolves passively converts to resources over 
+time. This is loot resolution, not identity change.
 
 ---
 
 ## Absence and Identity
 
-Absence does not move the weighted scale. Absence does not 
-soften identity expression. The scale is activity-triggered 
-only — entries age out when new qualifying sessions push 
-them out of the 99-point rolling window. Elapsed time 
-has no effect on existing entries.
+Absence does not move the behavioral scale. Absence does 
+not soften identity expression. The scale is 
+activity-triggered only — entries age out when new 
+qualifying sessions push them out of the rolling window. 
+Elapsed time has no effect on existing entries.
 
-The Hold responds to return, not to absence. See Hold 
-Absence & Return System documentation.
+The Hold responds to return, not to absence. Nothing 
+diminishes, decays, or is taken during absence. 
+The fire goes low, not out. The world waits.
 
 ---
 
@@ -265,3 +260,5 @@ the quality curve.
   for bonus loot layer
 - Resource tuning
 - Long-term interaction with Champion Trials & World Events
+- Hold Absence & Return System needs a formal document 
+  created and registered in the canonical manifest
