@@ -8,7 +8,7 @@ Update this manifest when documents are added, moved, or change status.
 Repository: https://github.com/SnowBroScott/endure-canonical
 Base raw URL: https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/
 
-Last Updated: Session 5
+Last Updated: Session 6
 
 ---
 
