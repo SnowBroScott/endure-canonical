@@ -170,7 +170,7 @@ survival/build layer. Two named sinks:
 Resources do not affect XP, activity difficulty, loot
 probability, transformation speed, or progression.
 
-Loot that dissolves passively converts to resources over
+Consumables that dissolves passively converts to resources over
 time. This is loot resolution, not identity change.
 
 ---
