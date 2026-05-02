@@ -21,6 +21,7 @@ Last Updated: Session 5
 | Resources & Currency System | resources-currency-system.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/resources-currency-system.md |
 | Core Gameplay Loop v2 | core-gameplay-loop-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/core-gameplay-loop-v2.md |
 | Classes & Identity v2 | classes-identity-v2.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/classes-identity-v2.md |
+| Hybrids & Progression Layer | hybrids-progression-layer.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/locked/hybrids-progression-layer.md |
 
 ---
 
@@ -29,7 +30,6 @@ Last Updated: Session 5
 
 | Document | Filename | Raw URL |
 |---|---|---|
-| Hybrids & Progression Layer | hybrids-progression-layer.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/hybrids-progression-layer.md |
 | Loot Systems | loot-systems.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/loot-systems.md |
 | Survival & Construction | survival-construction.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/survival-construction.md |
 | Champion Trials & World Events | champion-trials-world-events.md | https://raw.githubusercontent.com/SnowBroScott/endure-canonical/refs/heads/main/draft/champion-trials-world-events.md |
