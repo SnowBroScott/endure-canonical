@@ -1,5 +1,47 @@
 DECISION LOG ENTRY
 
+DECISION: Blueprints are single-use. They are consumed in the act of building. The structure built from them stands permanently. To build another structure of the same type, another blueprint of that type must drop. A player may hold one copy of a blueprint type at a time — or a low cap to be determined in testing. Acquiring a duplicate of a held blueprint requires a choice: use the held one first or lose the new drop. No stockpiling.
+
+DATE: May 2, 2026
+
+WHY: Hold construction must remain directly tied to continued path alignment and active loot accumulation. Single-use consumption enforces this — you cannot build ahead of your identity. The Hold grows at the pace your path feeds it. The stockpile cap preserves that pressure without creating an impossible edge case around duplicates.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+---
+
+DECISION LOG ENTRY
+
+DECISION: Blueprint rarity simultaneously governs three things: drop frequency (rarer blueprints drop less often; a mythic blueprint is a genuine event), emotional weight (receiving a rare or mythic blueprint carries real significance, consistent with the rarity emotional curve across all loot categories), and structure quality and uniqueness (common blueprints produce functional but humble structures; higher rarities produce more elaborate versions; some structures exist only at certain rarity thresholds and cannot be built from lower-rarity drops because a lower-rarity version of that structure does not exist).
+
+DATE: May 2, 2026
+
+WHY: Rarity should not be a single-axis variable. Collapsing frequency, emotional weight, and architectural ambition into a single design decision means each rarity tier is coherent and meaningful at every level of player experience — how often it drops, how it feels to receive it, and what it actually builds. These are not separate systems expressed in parallel. They are the same decision expressed at three levels.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+---
+
+DECISION LOG ENTRY
+
+DECISION: Junk is retired as a named loot category. The concept of "useless loot" does not exist in Endure. Every drop is genuine loot from one of the established categories. Desirability is determined by the player in context, not assigned by the game. Drops a player does not wish to keep are converted to resources — an authorship decision, not a consolation prize. The four loot categories are: Blueprints, Aesthetics, Environment, and Consumables (additive fifth category, separate from the main pool).
+
+DATE: May 2, 2026
+
+WHY: The "junk" framing undermines the dignity of every loot drop. Endure does not hand players garbage — it hands players things of varying desirability and trusts them to decide what serves them. Resource conversion should feel like a deliberate choice made by an author, not a game quietly admitting it gave the player something worthless. Retiring the category preserves the integrity of every drop in the pool.
+
+REPLACES: Junk as a named loot category
+
+STATUS: DRAFT
+
+---
+
+DECISION LOG ENTRY
+
 DECISION: The canonical framing for resource sink scope is "almost exclusively within the survival/build layer," as established in the locked Resources & Currency System. This language is intentionally permissive — two sinks are named, but the framing leaves fractional room for future expansion. Loot Systems draft language must align with this framing. The phrase "no other resource sinks exist" is too final and directly contradicts the locked document's intentional flexibility, and must not appear in Loot Systems drafts.
 
 DATE: May 1, 2025
