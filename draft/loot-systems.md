@@ -199,9 +199,7 @@ have value.
   survival/build layer)
 - Earned Marks (only non-build sink)
 
-Resources are spent almost exclusively within the  survival/build layer. 
-Additional sinks may be defined  as adjacent systems develop.
-Resources do not affect 
+No other resource sinks exist. Resources do not affect 
 moment-to-moment activity difficulty. Resources do not 
 replace XP or loot. Resources do not affect transformation 
 speed or progression.
