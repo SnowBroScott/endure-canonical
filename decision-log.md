@@ -1,5 +1,31 @@
 DECISION LOG ENTRY
 
+DECISION: The canonical framing for resource sink scope is "almost exclusively within the survival/build layer," as established in the locked Resources & Currency System. This language is intentionally permissive — two sinks are named, but the framing leaves fractional room for future expansion. Loot Systems draft language must align with this framing. The phrase "no other resource sinks exist" is too final and directly contradicts the locked document's intentional flexibility, and must not appear in Loot Systems drafts.
+
+DATE: May 1, 2025
+
+WHY: The locked Resources & Currency System was deliberately written with open-ended language to avoid over-constraining future design. Downstream draft documents that use more restrictive language than the locked source create a conflict where none was intended. Establishing language authority here protects the locked document's meaning and prevents Canon Guard flags caused by draft overcorrection.
+
+REPLACES: Nothing — new decision
+
+STATUS: NOTED
+
+
+DECISION LOG ENTRY
+
+DECISION: "Scale points" is the canonical internal term for the weighted value a qualifying session contributes to the behavioral identity scale. A Tier 1 session contributes 1 scale point; a Tier 2 session contributes 2 scale points. Scale points are an internal implementation term only — they are never player-facing. Players experience identity as emergence and drift; the point architecture is invisible to them.
+
+DATE: May 1, 2025
+
+WHY: A formal internal term is needed to precisely describe how session behavior accumulates toward identity on the weighted scale. Establishing canonical terminology at the implementation layer ensures consistency across documents and systems while preserving the player-facing experience of identity as something felt, not calculated.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+
+DECISION LOG ENTRY
+
 DECISION: Consumables affect session texture — the atmosphere and character of a session — not its mechanical output. A consumable nudging toward a non-primary path does not change XP calculation, scale points, or progression. It changes what the session feels like and what additional drops become possible. "Session texture" is the canonical term for what consumables influence. "Experience quality" is retired as too ambiguous.
 
 DATE: May 1, 2025
