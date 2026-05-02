@@ -133,7 +133,11 @@ No XP, no scale points, no loot.
 - 99 is deliberately odd. The scale cannot produce a perfect tie.
 - Pure path = absence of hybrid split. The game has no 
   declaration job.
-
+- The 99-point rolling window is activity-triggered, not 
+  time-triggered. Entries age out when new qualifying sessions 
+  push them out of the window. Elapsed time between sessions 
+  has no effect on existing entries. Absence does not move 
+  the scale in any direction.
 ---
 
 ### XP Model
