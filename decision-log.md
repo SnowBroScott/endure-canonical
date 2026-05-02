@@ -1,3 +1,46 @@
+Log these decisions:
+
+**Loot Rarity Tiers — Five Levels with Emotional Curve**
+Status: DRAFT
+
+Five rarity tiers in Endure:
+- Common — OK, useful. Expected.
+- Uncommon — Cool. A small win.
+- Rare — Sweet. Genuinely exciting.
+- Epic — Holy shit.
+- Mythic — Holy shit, but more so.
+
+Rarity expresses two things simultaneously: frequency of 
+occurrence and emotional weight on resolution. These are 
+not separate systems — they are the same design decision 
+expressed at two levels.
+
+The top tier is Mythic, not Legendary. Mythic implies 
+something older and more elemental — consistent with the 
+world's internal-power philosophy and Norse framing. 
+Legendary implies external renown. That's not what Endure is.
+
+---
+
+**Consumable Effect Scope — Session Texture**
+Status: DRAFT
+
+Consumables affect session texture — the atmosphere and 
+character of a session — not its mechanical output. 
+A consumable nudging toward a non-primary path does not 
+change XP calculation, scale points, or progression. 
+It changes what the session feels like and what additional 
+drops become possible.
+
+"Session texture" is the canonical term for what consumables 
+influence. "Experience quality" is retired as too ambiguous.
+
+Reasoning: Keeps consumables clearly outside the progression 
+layer while giving them meaningful design territory. Texture 
+is atmospheric and additive — consistent with Endure's values.
+
+---
+
 DECISION LOG ENTRY
 
 DECISION: When a player confirms hybrid status, access to base class blueprint pools ends. The player holds one identity — the hybrid — and has access to one pool: the hybrid pool. Base class blueprint pools are inaccessible until behavioral reality shifts back to that base class identity. This applies consistently across all ten paths with no exceptions at the hybrid level.
