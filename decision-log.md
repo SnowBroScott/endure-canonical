@@ -1,5 +1,33 @@
 DECISION LOG ENTRY
 
+DECISION: When a player confirms hybrid status, access to base class blueprint pools ends. The player holds one identity — the hybrid — and has access to one pool: the hybrid pool. Base class blueprint pools are inaccessible until behavioral reality shifts back to that base class identity. This applies consistently across all ten paths with no exceptions at the hybrid level.
+
+DATE: May 1, 2026
+
+WHY: Consistent with the one-identity-one-pool architecture that governs all ten paths. Hybrid status is a full identity — not an additive state — and pool access reflects that completely.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+---
+
+DECISION LOG ENTRY
+
+DECISION: Consumables that nudge toward a non-primary path produce two reward outcomes when acted upon: a guaranteed resource bonus, and a chance at an aesthetic drop from the nudge path. Consumables do not produce blueprint drops under any circumstances. Hold construction access is strictly identity-gated. The consumable reward space is limited entirely to resources and aesthetics.
+
+DATE: May 1, 2026
+
+WHY: Blueprint drops from consumables would create pool access inconsistent with the one-identity-one-pool architecture — a consumable cannot hand you construction rights that belong to a different identity. Aesthetics as the chance reward is more personal and immediate than construction access: a physical glimpse of another path on the body rather than a claim on the Hold. The guaranteed resource bonus ensures acting on the nudge is always worth it regardless of the aesthetic roll.
+
+REPLACES: Nothing — new decision
+
+STATUS: DRAFT
+
+---
+
+DECISION LOG ENTRY
+
 DECISION: Each of the ten player identities — four base classes and six hybrids — has its own distinct blueprint pool. Hybrid blueprint pools are not additive or inherited from their contributing base classes. Björn, for example, has its own Bear-specific pool of structures, visuals, and Hold character — not a merged or combined version of the Strider and Forgeborn pools. Access to any pool requires current behavioral alignment with that identity. The mechanism is identical across all ten identities. No hierarchy, no inheritance, no additive coverage advantage.
 
 DATE: May 1, 2026
