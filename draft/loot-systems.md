@@ -1,431 +1,267 @@
+# Endure – Loot Systems (Draft)
+
 Notebook: Endure
-
-Section: Loot Systems
-
-Page Title: *Endure – Loot Systems (Draft)*
-
-Status: Draft – Working Foundation (Not Locked)
-
-## Status
-
-**Draft – Working Foundation**
-
-This document captures the current shared understanding of the Loot system in *Endure*. 
-
-It reflects a converged design direction but remains explicitly open to revision as adjacent systems
-
-(resources, transformation, cadence) are finalized.
-
-Nothing in this document should be treated as fully locked.
+Status: Draft — Working Foundation (Not Locked)
 
 ---
 
 ## Design Intent
 
-Loot in *Endure* exists to **acknowledge, contextualize, and add meaning to endurance**, not to replace or optimize it.
+Loot in Endure exists to acknowledge, contextualize, and add 
+meaning to endurance — not to replace or optimize it.
 
-- XP measures *that* effort occurred.
+- XP measures that effort occurred.
+- Loot reflects how effort was endured.
+- Transformation reflects what the player becomes over time.
 
-- Loot reflects *how* effort was endured.
-
-- Transformation reflects *what the player becomes over time*.
-
-Loot is intentionally separated from XP and long-term power progression. 
-
-Its role is experiential, expressive, and interpretive—not mechanical acceleration.
-
----
-
-## High-Level Loot Loop
-
-### During an Activity
-
-- At random, subtle intervals during an activity, players may receive light loot acknowledgements.
-
-- These drops have a **low probability of being meaningful** and primarily serve to reinforce presence
-
-  and recognition during endurance.
-
-- These moments should never interrupt effort or influence moment-to-moment decision making.
-
-Purpose:
-
-- Reduce isolation during endurance
-
-- Reinforce that effort is being seen in real time
-
-- Avoid creating anticipation that distracts from the activity itself
+Loot is intentionally separated from XP and long-term 
+progression. Its role is experiential, expressive, and 
+interpretive — not mechanical acceleration.
 
 ---
 
-### End-of-Activity Resolution
+## The Five Loot Categories
 
-- Each activity concludes with a clear ritual moment where primary loot is resolved.
+Loot in Endure falls into five categories:
 
-- This end-of-session loot moment carries the **highest chance of being interesting or meaningful**
+**Blueprints** — Unlock structures in the Hold. Path-specific 
+at uncommon and above. Commons are path-neutral. One blueprint 
+pool per identity — ten pools total across four base classes 
+and six hybrids. One identity, one pool. Access requires 
+current behavioral alignment with that identity.
 
-  within the session.
+**Aesthetics** — Character expression. Free and reversible. 
+No resource cost. Path-specific in their visual language. 
+Freely changeable, consequence-free.
 
-- The player anticipates the *moment* of resolution, not the value or outcome of the loot.
+**Environment** — Free expressive layer. Weather, terrain, 
+animals, scenes. Freely changeable, consequence-free, no 
+mechanical weight. Does not feed the weighted identity scale.
 
-Purpose:
+**Junk** — Converts cleanly to resources. No other function. 
+Destroying Junk is not failure — it is the loot doing its job.
 
-- Provide emotional punctuation and closure
+**Consumables** — Fifth distinct category. Additive drops. 
+Appear alongside normal loot, not as part of the main pool. 
+Invitations toward a non-primary path, never assignments. 
+Governed by their own lifecycle and slot architecture — 
+see Consumables section below.
 
-- Separate endurance from reflection
+Marks are not a loot category. They are consequences of 
+trials and events — see the Marks system documentation.
 
-- Concentrate excitement without fragmenting focus during effort
+---
+
+## Rarity
+
+Rarity in Endure expresses two things simultaneously: 
+frequency of occurrence and emotional weight on resolution. 
+These are not separate systems — they are the same design 
+decision expressed at two levels.
+
+Rarity does not express power, efficiency, or progression.
+
+**Five tiers:**
+
+- Common — OK, useful. Expected.
+- Uncommon — Cool. A small win.
+- Rare — Sweet. Genuinely exciting.
+- Epic — Holy shit.
+- Mythic — Holy shit, but more so.
+
+Consumables are excluded from the standard rarity system. 
+They are governed by identity-aware temptation logic.
+
+---
+
+## The Loot Loop
+
+### During an Activity — Mid-Session Drops
+
+During longer efforts, at irregular and quiet intervals, 
+players may receive light loot acknowledgements. These drops 
+have a low probability of being meaningful and primarily 
+serve to reinforce presence and recognition during endurance.
+
+These moments must never interrupt effort or create 
+anticipation that distracts from the activity itself.
+
+Drop profile: commons weighted heavily. Most will convert 
+to resources. That is their purpose.
+
+---
+
+### End-of-Activity Resolution — Primary Drop
+
+Each activity concludes with a clear ritual moment where 
+primary loot is resolved. The floor is uncommon — no commons 
+at session completion. Rares are weighted. Epics and Mythics 
+are possible.
+
+Completing always moves the player up the quality curve.
+
+The player anticipates the moment of resolution, not the 
+value or outcome. Emotional punctuation. Closure.
 
 ---
 
 ### Post-Activity Evaluation
 
-After loot is awarded, players review items and choose how to resolve them.
-
-For each loot item, the player may:
+After loot is awarded, players review items and choose 
+how to resolve each one:
 
 - **Use** the loot
-
 - **Destroy** the loot for resources
 
-Both choices are intentionally valid, dignified, and productive.
-
----
-
-## Cross-Modality Loot (Temptation)
-
-Some loot items represent **other modalities or paths of endurance**.
-
-These items are framed as **temptations**, not directives.
-
-### Design Goals
-
-- Invite curiosity without pressure
-
-- Encourage understanding and perspective
-
-- Avoid undermining the player’s current identity or preferred modality
-
-Using cross-modality loot should leave the player feeling:
-
-> “That was interesting. I see why people do this. I’m glad I tried it.”
-
----
-
-### Use vs. Destroy Choice
-
-**Using loot** represents:
-
-- An intentional exploration of another way of enduring
-
-- A temporary, bounded experiential shift
-
-- Acknowledgement that other paths are valid without being superior
-
-**Destroying loot** represents:
-
-- A reaffirmation of identity
-
-- Respect for the player’s chosen path
-
-- Conversion of value into long-term resilience via resources
-
+Both choices are valid, dignified, and productive. 
 Destroying loot is not failure. It is authorship.
 
 ---
 
-### Hooks and Consequences (Working Direction)
+## Blueprints — Detail
 
-Cross-modality loot must have a *meaningful experiential hook* to avoid becoming noise.
+Blueprints unlock structures in the Hold. They expand 
+possibility rather than grant advantage. They do not modify 
+physical activity performance or identity velocity.
 
-Current working constraints on hooks:
+**Rarity and path alignment:**
+- Commons are path-neutral — the primary blueprint type 
+  during the Traveler phase.
+- Uncommon and above are path-specific — aligned with the 
+  current confirmed identity.
 
-- Hooks are **temporary and session-bound**
+**Ownership vs. access:**
+Blueprints already owned are permanent regardless of 
+identity drift. A player who drifts from hybrid status 
+retains all blueprints earned and all structures built 
+during that phase. Eligibility governs future drops only — 
+not existing ownership or construction rights.
 
-- Hooks do **not** modify XP directly
+When a player confirms hybrid status, access to base class 
+blueprint pools ends. One identity, one pool — no exceptions 
+at the hybrid level. Access returns to a base class pool 
+only when behavioral reality shifts back to that identity.
 
-- Hooks do **not** stack or persist
+---
 
-- Hooks influence *experience quality*, not progress rate
+## Consumables — Detail
 
-The system may acknowledge that something has changed **without specifying exact mechanics**,
+Consumables are additive drops — they appear alongside 
+normal loot, not as part of the main pool. They are 
+invitations toward a non-primary path, never assignments.
 
-preserving informed temptation while resisting optimization.
+**Slot architecture:**
+Three consumable slots — one per non-primary path. 
+A maximum of one consumable per path can be held at any time. 
+Slots unlock when a primary path is confirmed. Slots do not 
+exist during the Traveler phase.
+
+**Lifecycle — three resolution outcomes:**
+- Use it — follow the nudge, experience the invitation
+- Destroy it — immediate resource conversion
+- Do nothing — automatic resource conversion at end 
+  of lifecycle
+
+All three outcomes have value. No outcome is punishing. 
+Consumables are the only loot type with a built-in 
+time dimension.
+
+**Acting on a consumable nudge — reward outcomes:**
+- Guaranteed: resource bonus
+- Chance: an aesthetic drop from the nudge path
+
+Consumables do not produce blueprint drops under any 
+circumstance. Hold construction access is strictly 
+identity-gated. The carrot lives entirely in resources 
+and aesthetics.
+
+**Consumables and session texture:**
+Consumables affect session texture — the atmosphere and 
+character of a session — not its mechanical output. 
+XP, scale points, and progression are unaffected.
+
+Current working constraints on consumable hooks:
+- Hooks are temporary and session-bound
+- Hooks do not modify XP
+- Hooks do not stack or persist
+- Hooks influence session texture, not progress rate
 
 ---
 
 ## Resources
 
-Loot that is destroyed converts into **resources**.
+Resources are the residual value of endurance. They flow 
+entirely through the loot pipeline. There are no direct 
+resource drops.
 
-Resources:
+Loot that is destroyed — by choice or through natural 
+dissolution — converts into resources. Resources always 
+have value.
 
-- Always have value
+**Two resource sinks:**
+- Hold Construction (primary sink)
+- Earned Marks (only non-build sink)
 
-- Feed long-term survivability, recovery, continuity, and quality-of-life systems
+No other resource sinks exist. Resources do not feed 
+survival mechanics, recovery systems, or quality-of-life 
+systems. No survival mechanics exist in Endure.
 
-- Do not affect moment-to-moment activity difficulty
+Resources do not affect moment-to-moment activity difficulty. 
+Resources do not replace XP or loot. Resources do not affect 
+transformation speed or progression.
 
-- Do not replace XP or loot
-
-Resources act as a pressure valve to ensure no loot outcome ever feels wasted.
+Loot that dissolves passively converts to resources over time. 
+This is loot resolution, not identity change.
 
 ---
 
-## Design Guardrails (Non-Negotiable in Spirit)
+## Absence and Identity
+
+Absence does not move the weighted scale. Absence does not 
+soften identity expression. The scale is activity-triggered 
+only — entries age out when new qualifying sessions push 
+them out of the 99-point rolling window. Elapsed time 
+has no effect on existing entries.
+
+The Hold responds to return, not to absence. See Hold 
+Absence & Return System documentation.
+
+---
+
+## Milestone Drops vs. Completion Drops
+
+**Milestone drops:**
+Commons weighted heavily. Uncommons possible. Rares at 
+very low probability. Nothing above rare at milestones. 
+Milestone drops tend toward commons and junk, which players 
+will typically convert to resources. Resources are not 
+dropped directly — they result from loot resolution.
+
+**Completion drops:**
+Uncommon floor — no commons. Rares weighted. Epics and 
+Mythics possible. Completing always moves the player up 
+the quality curve.
+
+---
+
+## Design Guardrails (Non-Negotiable)
 
 - Loot must never replace effort with rewards
-
 - Loot must never create mandatory play patterns
-
 - Loot must resist min-max optimization by design and framing
-
-- Ignoring or rejecting loot must remain a valid, respected choice
-
-- Cross-modality temptation must remain rare enough to feel intentional
-
----
-
-## Open Questions (Intentionally Unresolved)
-
-The following are explicitly *not yet decided*:
-
-- Exact loot frequency and cadence
-
-- Definition and ceiling of “meaningful” loot
-
-- Resource tuning and sinks
-
-- Long-term interaction with transformation and hybrids
-
-These will be resolved in subsequent design passes.
+- Ignoring or rejecting loot must remain a valid, 
+  respected choice
+- Consumables must remain invitations, never assignments
+- Loot may reference identity and experience only
+- Loot must never reference progress, power, or efficiency
+- Loot must preserve agency, dignity, and long-term trust
 
 ---
 
-## Loot Clarification: Blueprints, Consumables, and the Survival Layer (Draft)
-
-### Core Framing
-
-Endure operates across two tightly coupled but philosophically distinct layers:
-
-- **Fitness / Identity Layer** 
-
-  Real‑world activity forms identity through endurance, consistency, and modality balance.
-
-- **Game / Survival‑Build Layer** 
-
-  A world, town, or hold that is sustained, expanded, and expressed through resources and construction.
-
-Loot exists as the bridge between these layers, allowing endurance to fund expression and opportunity in the survival layer **without altering or optimizing the fitness layer itself**.
-
----
-
-## Blueprint Loot (Survival / Build Expression)
-
-Blueprints are a valid and important form of loot in Endure.
-
-Blueprints:
-
-- Unlock structures, spaces, systems, or rituals in the survival/build layer
-
-- Expand *possibility* rather than grant advantage
-
-- Do not modify physical activity performance or identity velocity
-
-- Represent how endurance sustains and shapes the world the player inhabits
-
-Blueprints reinforce the loop:
-
-> “Do the work, so you can do the work.”
-
-They are not power upgrades. They are world‑shaping expressions of sustained endurance.
-
-Blueprints may utilize rarity to convey **frequency and emotional weight**, not efficiency or optimization.
-
----
-
-## Consumables (Temptation – Separate System)
-
-Cross‑modality and hybrid temptations are handled through **consumables**, which are intentionally separate from normal loot rarity tables.
-
-Consumables:
-
-- Are the *only* true consumable loot type in Endure
-
-- Represent invitations or moments of synthesis, not rewards
-
-- Are optional, identity‑aware, and experiential
-
-- Do not affect XP, activity difficulty, or transformation speed
-
-### Types of Consumable Temptation
-
-- **Cross‑Modality Consumables** 
-
-  Invite exploration of an unpracticed modality.
-
-- **Hybrid Consumables** 
-
-  Offer a chance at blueprint loot that expresses synthesis between modalities 
-
-  (e.g., Unbroken/Mystic world features rather than purely one or the other).
-
-Hybrid consumables do not imply superiority. They express convergence.
-
----
-
-## Hybrid Systems Clarification (Draft)
-
-Hybrid interactions in Endure are expressed through **three distinct but related systems**. 
-
-These systems must remain separate to preserve identity‑first design and avoid hybridization becoming a grind or optimization path.
-
----
-
-### 1. Hybrid Build Paths (Identity‑Gated Access)
-
-Hybrid build paths represent **structural build options** that are available only while a player’s current identity reflects a hybrid state.
-
-- Access exists only while the hybrid identity is active
-
-- Loss of hybrid identity removes access to *new* builds in that path
-
-- Existing constructed structures are never removed
-
-Hybrid build paths answer:
-
-> “What can I build right now, given who I am?”
-
----
-
-### 2. Hybrid Blueprint Drops (Identity Recognition)
-
-Hybrid blueprint drops are **loot events** that occur once a hybrid identity has been established.
-
-- Blueprint drops permanently unlock specific hybrid build options
-
-- Eligibility for *future* hybrid blueprint drops depends on maintaining the hybrid identity
-
-- Structures built from acquired blueprints persist even if the identity later drifts
-
-Hybrid blueprint drops answer:
-
-> “What did the world recognize about who I became?”
-
-These drops commemorate sustained hybrid endurance.
-
----
-
-### 3. Consumable‑Granted Hybrid Blueprint Chance (Experiential Recognition)
-
-Some consumables may temporarily grant a **chance** at a hybrid blueprint.
-
-- Does not require a fully established hybrid identity
-
-- Recognizes participation, experimentation, or trying a different modality
-
-- Still subject to all consumable constraints:
-
-  - time‑bound
-
-  - optional
-
-  - dissolvable into resources
-
-  - non‑stacking
-
-Consumable‑granted hybrid blueprint chances answer:
-
-> “What did the world notice when I stepped outside my usual path?”
-
-These do not shortcut identity formation and do not guarantee hybrid access.
-
----
-
-## Design Constraint (Hybrid Systems)
-
-- Hybrid identity controls **access**, not ownership
-
-- Blueprint acquisition commemorates effort permanently
-
-- Consumables acknowledge intent, not achievement
-
-- Loss of identity never removes constructed history
-
-Hybrids must express synthesis, not superiority.
-
-## Consumable Storage & Resolution
-
-- Consumables are **time‑bound** and naturally dissolve into resources if unused.
-
-- Dissolution is treated as **neutral entropy**, not loss or punishment.
-
-- Players may choose to:
-
-  - Use (experience the invitation)
-
-  - Destroy (convert immediately to resources)
-
-  - Let the consumable dissolve passively
-
----
-
-### Storage Model
-
-- Consumables are stored in **modality‑specific slots** aligned to non‑primary modalities.
-
-- A player may carry at most **one consumable per non‑primary modality**.
-
-- This prevents hoarding while respecting real‑life timing and context.
-
-- Acquiring a new consumable for an occupied slot requires replacement or destruction.
-
-Consumables acknowledge identity without forcing behavior.
-
----
-
-## Rarity Meaning (For Non‑Consumable Loot)
-
-Rarity in Endure expresses:
-
-- **Frequency** — how often something appears
-
-- **Emotional Weight** — how memorable and identity‑defining it is
-
-Rarity does **not** express power, efficiency, or progress.
-
-Consumables are excluded from the standard rarity system and instead governed by identity‑aware temptation logic.
-
----
-
-## Identity Drift & Transformation Interaction (Conceptual)
-
-Transformations are long‑arc identity reflections shaped by sustained behavior.
-
-- Short‑term absence does **not** erase identity.
-
-- Extended absence gently softens identity expression (entropy).
-
-- Sustained behavior change causes identity drift or synthesis.
-
-On return after absence:
-
-- The world may feel more distant due to softened identity expression
-
-- The system remains welcoming through eased re‑attunement
-
-- Recovery affects **expression**, not progress or power
-
-This is consequence, not punishment.
-
----
-
-## Design Constraint (Reaffirmed)
-
-Loot, including blueprints and consumables:
-
-- May reference identity and experience only
-
-- Must never reference progress, power, or efficiency
-
-- Must preserve agency, dignity, and long‑term trust
+## Open Threads
+
+- Exact mid-session loot frequency and cadence
+- Specific streak, milestone, threshold definitions 
+  for bonus loot layer
+- Resource tuning
+- Long-term interaction with Champion Trials & World Events
